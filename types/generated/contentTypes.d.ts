@@ -1369,6 +1369,12 @@ export interface ApiRoomTypeRoomType extends Schema.CollectionType {
           localized: false;
         };
       }>;
+    views: Attribute.Component<'facilities.views', true> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

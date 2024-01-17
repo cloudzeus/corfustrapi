@@ -54,6 +54,17 @@ export interface FacilitiesRoomBeds extends Schema.Component {
   };
 }
 
+export interface FacilitiesViews extends Schema.Component {
+  collectionName: 'components_facilities_views';
+  info: {
+    displayName: 'views';
+  };
+  attributes: {
+    viewTitle: Attribute.String;
+    viewDescrition: Attribute.String;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -61,6 +72,7 @@ declare module '@strapi/types' {
       'contact.social-media': ContactSocialMedia;
       'facilities.room-area': FacilitiesRoomArea;
       'facilities.room-beds': FacilitiesRoomBeds;
+      'facilities.views': FacilitiesViews;
     }
   }
 }

@@ -138,6 +138,17 @@
           "localized": false
         }
       }
+    },
+    "views": {
+      "displayName": "views",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "facilities.views"
     }
   }
 }

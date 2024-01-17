@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_facilities_views",
+  "info": {
+    "displayName": "views"
+  },
+  "options": {},
+  "attributes": {
+    "viewTitle": {
+      "type": "string"
+    },
+    "viewDescrition": {
+      "type": "string"
+    }
+  }
+}
