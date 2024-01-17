@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_social_medias",
+  "info": {
+    "displayName": "Social Media Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socailMediaName": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Instagram",
+        "Youtube",
+        "Linkedin",
+        "TikTok"
+      ]
+    },
+    "socialMediaLink": {
+      "type": "string"
+    }
+  }
+}

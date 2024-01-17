@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_contact_hotel_contacts",
+  "info": {
+    "displayName": "Hotel Contacts",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contactPhone": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "contactAddress": {
+      "type": "string"
+    },
+    "contactZip": {
+      "type": "string"
+    },
+    "contactDescription": {
+      "type": "string"
+    }
+  }
+}

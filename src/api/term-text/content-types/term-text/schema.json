@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "term_texts",
+  "info": {
+    "singularName": "term-text",
+    "pluralName": "term-texts",
+    "displayName": "termText"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "termsDescriptions": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_facilities_room_beds",
+  "info": {
+    "displayName": "Room Beds"
+  },
+  "options": {},
+  "attributes": {
+    "roomBedType": {
+      "type": "string"
+    },
+    "bedSleeps": {
+      "type": "integer"
+    }
+  }
+}

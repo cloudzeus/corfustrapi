@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_requests",
+  "info": {
+    "singularName": "booking-request",
+    "pluralName": "booking-requests",
+    "displayName": "Bookings Request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "_softDeletedAt": {
+      "type": "datetime",
+      "configurable": false,
+      "writable": false,
+      "visible": false,
+      "private": true
+    },
+    "_softDeletedById": {
+      "type": "integer",
+      "configurable": false,
+      "writable": false,
+      "visible": false,
+      "private": true
+    },
+    "_softDeletedByType": {
+      "type": "string",
+      "configurable": false,
+      "writable": false,
+      "visible": false,
+      "private": true
+    },
+    "customerName": {
+      "type": "string",
+      "required": true
+    },
+    "customerEmail": {
+      "type": "email"
+    },
+    "arrivalDate": {
+      "type": "date"
+    },
+    "numOfNights": {
+      "type": "integer"
+    },
+    "numAdults": {
+      "type": "integer"
+    },
+    "numChildren": {
+      "type": "integer"
+    },
+    "customerPhone": {
+      "type": "string"
+    },
+    "specialRequest": {
+      "type": "text"
+    },
+    "room_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room-type.room-type"
+    }
+  }
+}
